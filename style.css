@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(187, 233, 243);
+}
+
+h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: auto;
+    width:70%;
+}
+
+header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: auto;
+    width:70%;
+}
+
+input{
+    height: 50px;
+    width: 60%;
+    border: none;
+    box-shadow: 0 0 10px rgb(116, 218, 240);
+   
+}
+
+#botaoEntrada{
+    height: 50px;
+    width: 20%;
+    background-color: green;
+    color: white;
+    border: none;   
+}
+
+#botaoEntrada:hover{
+    background-color: rgb(4, 180, 4);
+}
+
+main{
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+#itemNaoClicado {
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    min-width: 70%;
+    margin: 10px auto;
+}
+
+#itemNaoClicado div{
+    width: 30%;
+    margin: auto;
+    align-items: center;
+    margin: 10px;
+}
+ 
+#itemClicado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    min-width: 70%;
+    margin: 10px auto;
+    background-color: rgb(181, 247, 181);
+    
+    
+}
+
+
+#itemClicado div{
+    width: 30%;
+    margin: auto;
+    align-items: center;
+    margin: 10px;
+    text-decoration: line-through;
+}
+
+
+/*---------------------CSS do HTML criado no JS----------------------------------*/
+
+.itemNaoClicadoJs{
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    min-width: 70%;
+    margin: 10px auto; 
+}
+
+.itemClicadoJs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    min-width: 70%;
+    margin: 10px auto;
+    background-color: rgb(181, 247, 181); 
+}
+
+.material-symbols-outlined{
+    font-size: 50px!important;
+}
+
+.tarefaEscritaJs{
+    text-decoration: line-through;
+}
+
+
+.botaoDeleteJs{
+    height: 50px;
+    width: 20%;
+    background-color: rgb(255, 1, 1);
+    color: white;
+    border: none;
+}
+
+.botaoDeleteJs:hover{
+    background-color: rgb(226, 0, 0)
+}
+
+.showDisplay{
+    display: flex;
+}
+
+.hideDisplay{
+    display: none;
+}
